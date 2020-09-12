@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://atthaboon.github.io/PG-hugo-io/"
 languageCode = "en-us"
 title = "Robot Framework Puppeteer | Easy, Stable and Speed web testing"
 theme = "timer-hugo"
