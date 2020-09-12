@@ -2,12 +2,22 @@
 
 {{ partial "banner.html" . }}
 
-{{ partial "about.html" . }}
+<main id="main">
+  {{ partial "about.html" . }}
 
-{{ partial "portfolio.html" . }}
+  {{ partial "quickstart.html" . }}
 
-{{ partial "feature.html" . }}
+  {{ partial "features.html" . }}
 
-{{ partial "cta.html" . }}
+  {{ partial "document.html" . }}
+
+  {{ partial "team.html" . }}
+
+  {{ partial "cta.html" . }}
+
+</main>
+
+<a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+<div id="preloader"></div>
 
 {{ end }}

@@ -11,22 +11,24 @@
   <meta name="format-detection" content="telephone=no">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ .Title }}</title>
+  
+  <!-- Favicons -->
   <link rel="icon" href="{{ "images/favicon.ico" | absURL }}">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
   {{ "<!-- Twitter Bootstrs CSS -->" | safeHTML }}
   <link rel="stylesheet" href="{{ "plugins/bootstrap/bootstrap.min.css" | absURL }}">
-  {{ "<!-- Ionicons Fonts Css -->" | safeHTML }}
-  <link rel="stylesheet" href="{{ "plugins/ionicons/ionicons.min.css" | absURL }}">
-  {{ "<!-- animate css -->" | safeHTML }}
-  <link rel="stylesheet" href="{{ "plugins/animate-css/animate.css" | absURL }}">
-  {{ "<!-- Hero area slider css-->" | safeHTML }}
-  <link rel="stylesheet" href="{{ "plugins/slider/slider.css" | absURL }}">
-  {{ "<!-- slick slider -->" | safeHTML }}
-  <link rel="stylesheet" href="{{ "plugins/slick/slick.css" | absURL }}">
-  {{ "<!-- Fancybox -->" | safeHTML }}
-  <link rel="stylesheet" href="{{ "plugins/facncybox/jquery.fancybox.css" | absURL }}">
-  {{ "<!-- hover -->" | safeHTML }}
-  <link rel="stylesheet" href="{{ "plugins/hover/hover-min.css" | absURL }}">
+  <link rel="stylesheet" href="{{ "plugins/icofont/icofont.min.css" | absURL }}">
+  <link rel="stylesheet" href="{{ "plugins/boxicons/css/boxicons.min.css" | absURL }}">
+  <link rel="stylesheet" href="{{ "plugins/venobox/venobox.css" | absURL }}">
+  <link rel="stylesheet" href="{{ "plugins/remixicon/remixicon.css" | absURL }}">
+  <link rel="stylesheet" href="{{ "plugins/owl.carousel/assets/owl.carousel.min.css" | absURL }}">
+  <link rel="stylesheet" href="{{ "plugins/aos/aos.css" | absURL }}">
+
   {{ "<!-- template main css file -->" | safeHTML }}
   {{ $styles := resources.Get "css/style.css" | minify}}
   <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
