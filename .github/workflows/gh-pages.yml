@@ -28,6 +28,12 @@ jobs:
         with:
           hugo-version: 'latest'
 
-      # Run build statis page
+      # Run build static page
       - name: Build
         run: hugo --minify
+      
+      # Commit static page
+      - uses: matheusalbino/git-commit@v1.0.1
+        with:
+          message: This a commit from Github Actions
+          github-token: ${{ secrets.GH_TOKEN }}
