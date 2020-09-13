@@ -15,11 +15,16 @@
 			<ul>
 				<li class="active"><a href="{{ .Site.BaseURL }}">Home</a></li>
 				<li><a href="#about">About</a></li>
-				<li><a href="#quick-start">Quick Start</a></li>
-				<li><a href="#features">Features</a></li>
-				<li><a href="#document">Document</a></li>
-				<li><a href="#team">Team</a></li>
-				<li><a href="#contact">Contact</a></li>
+				<li><a href="{{ .Site.BaseURL }}#quick-start">Quick Start</a></li>
+				<li class="drop-down">
+					<a href="{{ .Site.BaseURL }}#features">Features</a>
+					<ul>
+						<li><a href="/features/form-handler-feature/">Form Handler</a></li>
+					</ul>
+				</li>
+				<li><a href="{{ .Site.BaseURL }}#document">Document</a></li>
+				<li><a href="{{ .Site.BaseURL }}#team">Team</a></li>
+				<li><a href="{{ .Site.BaseURL }}#contact">Contact</a></li>
 			</ul>
 		</nav><!-- .nav-menu -->
 
