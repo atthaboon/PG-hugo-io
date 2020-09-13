@@ -1,0 +1,22 @@
+#header {
+  background: rgba(1, 4, 136, 0.9) !important;
+  height: 60px;
+}
+
+.global-page-header {
+  padding: 40px 0 25px;
+  position: relative;
+}
+
+.global-page-header h2 {
+  font-weight: 600;
+  color: #010483;
+}
+
+.work-single-sidebar h5 {
+  color: #010483;
+}
+
+.work-single-content {
+  padding-top: 25px;
+}
