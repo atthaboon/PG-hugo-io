@@ -6,7 +6,6 @@ description : "Robot framework puppeteer form handler demo"
 category: ["features"]
 submitDate: September 14, 2020
 author: Atthaboon S.
-draft: true
 ---
 ### Form submit
 RF Puppeteer allow you to simple interact with html forms with following keywords:
