@@ -930,12 +930,12 @@ section {
   font-size: 16px;
 }
 
-.features .icon-box h3 a {
+.features .icon-box h3 {
   color: #010483;
   transition: ease-in-out 0.3s;
 }
 
-.features .icon-box h3 a:hover {
+.features .icon-box h3:hover {
   color: #01036f;
 }
 

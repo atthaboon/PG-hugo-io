@@ -18,8 +18,7 @@ RF Puppeteer allow you to simple interact with html forms with following keyword
 
 #### Example: 
 ![Login form page image](/images/features/form-handler-feature/login-form.jpg)
-
-{{< gist atthaboon c374d16b3e4e3814d8e5be086f6f7973 >}}
+{{< gist atthaboon ff8d96853288b025073ffffc156d6b01 >}}
 
 
 ### Select dropdown item
@@ -28,7 +27,6 @@ Select value from dropdown list need to use folling keywords:
 - Select From List By Value
 
 #### Example: 
-![Register form page image](/images/features/form-handler-feature/login-form.jpg)
+![Register form page image](/images/features/form-handler-feature/register-form.jpg)
 
-{{< gist atthaboon c374d16b3e4e3814d8e5be086f6f7973 >}}
-
+{{< gist atthaboon a008f271e58e06c0fd853c47bf1dd6bb >}}
