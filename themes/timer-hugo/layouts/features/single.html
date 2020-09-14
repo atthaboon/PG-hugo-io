@@ -50,6 +50,10 @@
 {{ $stylemain := resources.Get "css/default-single.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $stylemain.Permalink }}" integrity="{{ $stylemain.Data.Integrity }}">
 
+<script>
+    window.fixedScrollMenu = 'features';
+</script>
+
 {{"<!-- work details part end -->" | safeHTML }}
 
 {{ end }}
